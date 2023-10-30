@@ -1,5 +1,5 @@
 """error_example_2_fixed_4.py
-A program with an exhaustive set of try/except blocks.
+A program with a comprehensive set of try/except blocks.
 """
 
 if __name__ == '__main__':

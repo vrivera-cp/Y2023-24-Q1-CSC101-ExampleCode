@@ -1,5 +1,5 @@
 """error_example_2_fixed_2.py
-A program that trys to continue reading a file containing bad data.
+A program that try to continue reading a file containing bad data.
 """
 
 if __name__ == '__main__':

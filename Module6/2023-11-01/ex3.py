@@ -14,6 +14,7 @@ def get_direction(v: Vector) -> float:
     """Return the direction of the vector in degrees."""
     return atan2(v.y, v.x) * 180 / pi
 
+
 if __name__ == '__main__':
     vector = Vector(1.0, 1.0)
 

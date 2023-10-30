@@ -1,4 +1,4 @@
-"""ex2.py
+"""ex3.py
 An example of importing classes.
 """
 import ex1

@@ -1,4 +1,4 @@
-"""ex3.py
+"""ex1.py
 An example of an empty class.
 """
 

@@ -1,4 +1,4 @@
-"""ex1.py
+"""ex2.py
 An example of an __init__ method.
 """
 

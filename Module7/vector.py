@@ -1,5 +1,5 @@
-"""ex5.py
-An example of comparing classes using the equality operator.
+"""vector.py
+Defines the vector class with __str__, __repr__, and __eq__ methods.
 """
 
 
@@ -16,12 +16,7 @@ class Vector:
     def __repr__(self) -> str:
         return f"Vector(x={self.x}, y={self.y})"
 
-
-if __name__ == '__main__':
-    a = Vector(1.0, 0.0)
-    b = Vector(0.0, 1.0)
-    c = Vector(1.0, 0.0)
-
-    print('a == a', a == a)
-    print('a == b', a == b)
-    print('a == c', a == c)
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, Vector):
+            return False
+        return self.x == other.x and self.y == other.y

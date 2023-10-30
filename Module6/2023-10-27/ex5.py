@@ -1,4 +1,4 @@
-"""cat_owner.py
+"""ex5.py
 An example of class with a list attribute.
 """
 from ex2 import Cat

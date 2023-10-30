@@ -1,4 +1,4 @@
-"""ex3.py
+"""ex4.py
 An example of aliasing and mutability.
 """
 from ex2 import Cat

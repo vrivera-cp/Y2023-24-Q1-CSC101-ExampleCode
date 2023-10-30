@@ -1,4 +1,4 @@
-"""ex3.py
+"""ex4.py
 A solution to the __str__ and __repr__ method exercise.
 """
 

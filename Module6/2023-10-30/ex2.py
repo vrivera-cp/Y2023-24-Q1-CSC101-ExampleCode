@@ -1,4 +1,4 @@
-"""ex1.py
+"""ex2.py
 An example of the __str__ and __repr__ methods.
 
 Note: as of writing, PyCharm contains a bug where the debugger shows __str__ instead of __repr__.

@@ -1,4 +1,4 @@
-"""ex2.py
+"""ex3.py
 An exercise for writing the __str__ and __repr__ methods.
 """
 

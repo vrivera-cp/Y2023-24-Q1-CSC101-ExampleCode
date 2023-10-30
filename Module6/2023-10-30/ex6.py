@@ -1,4 +1,4 @@
-"""ex3.py
+"""ex6.py
 An example of an __eq__ method.
 """
 

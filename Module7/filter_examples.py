@@ -52,6 +52,6 @@ if __name__ == "__main__":
     print(filter_strings_longer_than(["mercury", "venus", "mars", "jupiter"], 5))
     # Output: ["mercury", "jupiter"]
 
-    vectors = [Vector(3.0, 4.0), Vector(0.0, 5.0)]
+    vectors = [Vector(3.0, 4.0), Vector(0.0, 6.0)]
     print(filter_vectors_of_magnitude_less_than(vectors, 6.0))
     # Output: [Vector(3.0, 4.0)]

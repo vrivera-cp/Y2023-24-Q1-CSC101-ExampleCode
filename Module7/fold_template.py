@@ -4,7 +4,7 @@ Contains a generalized fold function template.
 
 
 def fold_template(name: list) -> str:  # Be sure to provide a descriptive parameter name and appropriate types
-    """A generalized filter function that concatenates string values of each input item."""
+    """A generalized fold function that concatenates string values of each input item."""
 
     # Accumulator:
     # - Unlike map and filter, folds begin with a single value called the accumulator

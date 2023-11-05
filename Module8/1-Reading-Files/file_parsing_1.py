@@ -15,7 +15,7 @@ if __name__ == '__main__':
             x = float(data[0])
             y = float(data[1])
 
-            xs.append(float(data[0]))  # first column
-            ys.append(float(data[1]))  # second column
+            xs.append(x)  # first column
+            ys.append(y)  # second column
     print("x values:", xs)
     print("y values:", ys)

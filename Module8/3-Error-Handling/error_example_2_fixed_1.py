@@ -1,4 +1,4 @@
-"""error_example_2.py
+"""error_example_2_fixed_1.py
 A program that stops when reading a file containing bad data.
 """
 
@@ -16,8 +16,8 @@ if __name__ == '__main__':
                 x = float(data[0])
                 y = float(data[1])
 
-                xs.append(float(data[0]))  # first column
-                ys.append(float(data[1]))  # second column
+                xs.append(x)  # first column
+                ys.append(y)  # first column
 
     except ValueError:
         print("Found a bad value!")

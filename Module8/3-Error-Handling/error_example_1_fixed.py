@@ -1,4 +1,4 @@
-"""error_example_1.py
+"""error_example_1_fixed.py
 A program that tries to read a file that doesn't exist and catches any errors.
 """
 

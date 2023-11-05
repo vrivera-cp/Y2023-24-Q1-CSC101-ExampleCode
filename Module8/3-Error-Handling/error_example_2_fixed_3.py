@@ -20,8 +20,8 @@ if __name__ == '__main__':
             except IndexError:
                 continue  # If this line is problematic, ignore it and consider the next line
 
-            xs.append(float(data[0]))  # first column
-            ys.append(float(data[1]))  # second column
+            xs.append(x)  # first column
+            ys.append(y)  # second column
 
     print("x values:", xs)
     print("y values:", ys)

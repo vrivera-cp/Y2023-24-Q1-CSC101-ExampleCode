@@ -20,8 +20,8 @@ if __name__ == '__main__':
                     # Occurs if either a ValueError or IndexError occurs
                     continue
 
-            xs.append(float(data[0]))  # first column
-            ys.append(float(data[1]))  # second column
+            xs.append(x)  # first column
+            ys.append(y)  # second column
 
     except FileNotFoundError:
         print("File not found!")

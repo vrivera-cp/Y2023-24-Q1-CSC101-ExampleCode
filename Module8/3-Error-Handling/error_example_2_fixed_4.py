@@ -6,7 +6,7 @@ if __name__ == '__main__':
     xs = []
     ys = []
     try:
-        with open('data_bad.csv') as f:
+        with open('non-existent.csv') as f:
             next(f)  # Skips the first line
             for line in f:
                 line = line.strip()  # Remove trailing new lines
@@ -20,8 +20,8 @@ if __name__ == '__main__':
                     # Occurs if either a ValueError or IndexError occurs
                     continue
 
-            xs.append(x)  # first column
-            ys.append(y)  # second column
+                xs.append(x)  # first column
+                ys.append(y)  # second column
 
     except FileNotFoundError:
         print("File not found!")
